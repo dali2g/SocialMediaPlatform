@@ -4,7 +4,7 @@ const userRoutes = require("./routes/user-routes");
 
 const app = express();
 const uri =
-  "mongodb+srv://dali2g:Youssef-2006@cluster0.lrw8npz.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.lrw8npz.mongodb.net/?retryWrites=true&w=majority";
 
 app.use("/api/user", userRoutes);
 
